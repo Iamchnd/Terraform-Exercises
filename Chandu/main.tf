@@ -14,7 +14,7 @@ module "dynamodb_table" {
 
 module "ec2_instance" {
   source        = "./modules/ec2"
-  ami_id       = "ami-0dee22c13ea7a9a67" 
+  ami_id       = var.ami_id
   instance_type = "t2.micro"
   instance_name = "ExampleInstance"
 }
