@@ -10,5 +10,5 @@ variable "bucket_name" {
 variable "ami_id"  {
   description = "ami id"
   type        = string
-  default     = "ami-0dee22c13ea7a9a67"
+  default     = ""
 }    
